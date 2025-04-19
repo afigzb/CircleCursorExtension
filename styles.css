@@ -1,0 +1,25 @@
+.circle-cursor {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s;
+    mix-blend-mode: difference;
+    z-index: 999999;
+}
+
+.circle-cursor-inner {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s;
+    mix-blend-mode: difference;
+    z-index: 999999;
+} 
